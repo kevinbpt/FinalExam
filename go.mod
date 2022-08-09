@@ -6,6 +6,7 @@ require (
 	github.com/denisenkom/go-mssqldb v0.12.2
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gorilla/mux v1.8.0
+	github.com/ilyakaznacheev/cleanenv v1.3.0
 	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
 )
 
@@ -13,7 +14,6 @@ require (
 	github.com/BurntSushi/toml v1.2.0 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
-	github.com/ilyakaznacheev/cleanenv v1.3.0 // indirect
 	github.com/joho/godotenv v1.4.0 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	golang.org/x/sys v0.0.0-20220227234510-4e6760a101f9 // indirect
