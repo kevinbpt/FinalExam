@@ -130,6 +130,7 @@ func UpdateUser(w http.ResponseWriter, r *http.Request, id int) {
 
 		response.Status = 200
 		response.Message = "User updated successfully"
+		user.Id = id
 		response.Data = *user
 		response.Data.UpdatedAt = timenow
 		json.NewEncoder(w).Encode(response)
